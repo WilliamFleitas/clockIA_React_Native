@@ -21,6 +21,7 @@ const BottomNav: React.FC = () => {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
+        headerShown: false,
         tabBarStyle: { 
           backgroundColor: '#1c1a18', 
           flexDirection: 'row',

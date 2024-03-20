@@ -1,19 +1,17 @@
 import { StyleSheet, Text, View } from "react-native";
 import Icon from 'react-native-vector-icons/AntDesign';
+import CreateAlarmForm from "./alarmAssets/CreateAlarmForm";
 const AlarmLayout = () => {
     return (
-        <View style={styles.sectionContainer}>
-            <Text style={styles.text}>This is the Alarm Layout</Text>
-            <Icon name="stepbackward" size={30} color="#900" />
+        <View style={styles.mainContainer}>
+                <CreateAlarmForm/>
         </View>
     )
 };
 
 const styles = StyleSheet.create({
-    sectionContainer: {
-        marginTop: 32,
-        paddingHorizontal: 24,
-        backgroundColor: "red",
+    mainContainer: {
+        padding: 30
     },
     sectionTitle: {
         fontSize: 24,

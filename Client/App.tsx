@@ -14,7 +14,7 @@ function App(): React.JSX.Element {
   console.log("hola");
 
   return (
-    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 2}} colors={['#582823',   '#1c1a18']} style={styles.linearGradient}>
+    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#582823',   '#1c1a18']} style={styles.linearGradient}>
       <NavigationContainer theme={navTheme}>
         <BottomNav />
       </NavigationContainer>
